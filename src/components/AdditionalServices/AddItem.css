@@ -1,0 +1,22 @@
+.addItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addItem i{
+    font-size: 2rem;
+    color: #c2dcf3;
+    transform: rotateZ(180deg);
+}
+
+.addItem .desc h5{
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.addItem .desc p{
+    color: #aeb0b3;
+    font-size: 0.8rem;
+    width: max-content;
+}

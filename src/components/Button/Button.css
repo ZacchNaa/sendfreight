@@ -1,0 +1,16 @@
+button{
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+
+.btnRequest{
+	background-color: transparent;
+    border: 0.1rem solid #fff;
+}
+.btnShipment{
+    background-color: #61f3aa;
+    border: 0.1rem solid #61f3aa;
+}

@@ -1,0 +1,41 @@
+.itemCard{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    border: 0.1rem solid #ebe9e9;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #555;
+}
+
+.itemCard span{
+    width: 60%;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.itemCard.plane{
+    background-color: #008cff;
+    color: #fff;
+}
+
+.itemCard i{
+    font-size: 3rem;
+    position: absolute;
+    right: -1rem;
+    bottom: -1rem;
+}
+
+i.plane{
+    transform: rotateZ(-90deg);
+    color: #fff;
+    font-size: 3.5rem;
+    right: -2rem;
+    bottom: -0.1rem;
+}
+
+span.truck{
+    width: 70%;
+}

@@ -1,0 +1,28 @@
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1 span button{
+    background-color: #fff;
+    color: #555;
+    border: 0.1rem solid #ebe9e9;
+    padding: 0.7rem 1rem;
+}
+.row1 span button.import{
+    margin-right: 0;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.row1 span button.export{
+    margin-left: -0.3rem;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}

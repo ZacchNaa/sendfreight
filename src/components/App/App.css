@@ -1,0 +1,15 @@
+.app{
+  background-color: #c2dcf3;
+  padding-bottom: 10rem;
+}
+
+.heading{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+}
+
+.heading span{
+  padding-left: 50%;
+}
