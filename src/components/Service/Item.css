@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 22%;
+    height: 90px;
     border: 0.1rem solid #ebe9e9;
     border-radius: 0.2rem;
     padding: 1rem;
@@ -17,7 +18,7 @@
 }
 
 .itemCard.plane{
-    background-color: #008cff;
+    background-color: #0e2bce;
     color: #fff;
 }
 

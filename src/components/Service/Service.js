@@ -29,7 +29,7 @@ const Service = () => {
     })
     return (
 			<Section>
-				<h5>Select a service</h5>
+				<h3>Select a service</h3>
 				<div className="itemSection">{item}</div>
 			</Section>
 		);

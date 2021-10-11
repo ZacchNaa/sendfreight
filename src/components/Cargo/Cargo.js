@@ -1,6 +1,6 @@
+import { InputAdornment, TextField } from "@material-ui/core";
 import React from "react";
 import Section from "../../containers/Section/Section";
-import Search from "../Search/Search";
 import "./Cargo.css";
 
 const Cargo = () => {
@@ -8,7 +8,7 @@ const Cargo = () => {
 		<Section>
 			<div className="cargoDetails">
 				<div className="cargoLeft">
-					<h5>Cargo Details</h5>
+					<h3>Cargo Details</h3>
 					<span>
 						<i className="toggle on icon"></i>
 						<h6>{`Dangerous Cargo {ex. Chemicals, Battery }`}</h6>
@@ -20,8 +20,29 @@ const Cargo = () => {
 						<span className="details">Packages Details</span>
 					</div>
 					<div className="volume">
-						<Search />
-						<Search />
+						<TextField
+							label="Total Volume"
+							variant="outlined"
+							id="outlined-end-adornment"
+							sx={{ m: 1, width: "20ch" }}
+							InputProps={{
+								endAdornment: (
+									<InputAdornment position="end">cbm</InputAdornment>
+								),
+							}}
+						/>
+						<TextField
+							label="Total Weight"
+							size="medium"
+							variant="outlined"
+							id="outlined-end-adornment"
+							sx={{ m: 0.1, width: "20ch" }}
+							InputProps={{
+								endAdornment: (
+									<InputAdornment position="end">kg</InputAdornment>
+								),
+							}}
+						/>
 					</div>
 				</div>
 			</div>

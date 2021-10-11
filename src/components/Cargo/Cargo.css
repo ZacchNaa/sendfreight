@@ -19,7 +19,7 @@ align-items: center;
 
 .cargoLeft i{
 font-size: 2rem;
-color: #008cff;
+color: #0e2bce;
 }
 
 .cargoRight{
@@ -33,7 +33,7 @@ color: #008cff;
 }
 
 .package{
-    background-color: #c2dcf3;
+    background-color: #ebeff3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +47,7 @@ border-radius: 0.5rem;
 border-top: 0.1rem solid #ced1d4;
 border-left: 0.1rem solid #ced1d4;
 border-right: 0.1rem solid #ced1d4;
-color: #008cff;
+color: #0e2bce;
 }
 
 .package .details {

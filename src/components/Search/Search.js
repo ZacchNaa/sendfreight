@@ -1,15 +1,13 @@
 import React from "react";
-import { Input } from "semantic-ui-react";
+import "./Search.css"
 
 const Search = () => {
 	return (
 		<div className="search">
-			<Input
-				className="search-input"
-				width="100"
-				icon="search"
-				placeholder="Search..."
-			/>
+			 <div class="input-icons">
+				<i class="search icon"></i>
+				<input class="input-field" type="text" placeholder="Search" />            
+        	</div>
 		</div>
 	);
 };
