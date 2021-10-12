@@ -34,7 +34,7 @@ const AdditionalServices = () => {
 	});
 	return (
 		<Section>
-			<h5>Additional Service</h5>
+			<h3>Additional Service</h3>
 			<div className="itemSection">{item}</div>
 		</Section>
 	);
