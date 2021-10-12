@@ -1,5 +1,5 @@
 .input-icons {
-    position: relative;
+	position: relative;
 }
 
 .input-icons i {
@@ -7,61 +7,58 @@
 	right: 5px;
 }
 
-
 .input-icons .icon {
 	padding: 10px;
 	min-width: 40px;
-    color: aliceblue;
+	color: aliceblue;
 }
 
 .input-field {
-	width: 400px;
+	width: 550px;
 	padding: 10px;
 	text-align: center;
-    border: none;
-    color: #fff;
-    background-color: #ffffff55;
-    outline: none;
-    font-size: 1.4rem;
+	border: none;
+	color: #fff;
+	background-color: #ffffff55;
+	outline: none;
+	font-size: 1.4rem;
 }
 
 .input-field::placeholder {
-    color: #fff;
-    position: absolute;
-    left: 20px;
-}
-
-
-@media only screen and (max-width: 1390px){
-    /*Tablets [601px -> 1200px]*/
-    .input-field {
-	width: 270px !important;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/
-    .input-field {
-	width: 250px !important;
-    }
-}
-@media only screen and (max-width: 600px){
-	/*Big smartphones [426px -> 600px]*/
-     .input-field {
-	width: 200px !important;
-    margin-right: 2rem;
-    }
-
-    
-.input-icons i {
+	color: #fff;
 	position: absolute;
-	right: 25px;
+	left: 20px;
 }
+
+@media only screen and (max-width: 1390px) {
+	/*Tablets [601px -> 1200px]*/
+	.input-field {
+		width: 500px !important;
+	}
 }
-@media only screen and (max-width: 425px){
+
+@media only screen and (max-width: 1200px) {
+	/*Tablets [601px -> 1200px]*/
+	.input-field {
+		width: 250px !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	/*Big smartphones [426px -> 600px]*/
+	.input-field {
+		width: 200px !important;
+		margin-right: 2rem;
+	}
+
+	.input-icons i {
+		position: absolute;
+		right: 25px;
+	}
+}
+@media only screen and (max-width: 425px) {
 	/*Small smartphones [325px -> 425px]*/
-     .input-field {
-	width: 160px !important;
-    margin-right: 2rem;
-    }
+	.input-field {
+		width: 160px !important;
+		margin-right: 2rem;
+	}
 }
