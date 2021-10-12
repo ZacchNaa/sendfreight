@@ -17,6 +17,10 @@ justify-content: space-between;
 align-items: center;
 }
 
+.cargoLeft span h6{
+margin-top: 1rem !important;
+}
+
 .cargoLeft i{
 font-size: 2rem;
 color: #0e2bce;
