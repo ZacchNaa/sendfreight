@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .row1 span button{
     background-color: #fff;
@@ -25,4 +26,40 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 780px){
+    /*Tablets [601px -> 1200px]*/
+	.row1 .input.from{
+        width: 50%;
+    }
+	.row1 .input.to{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .row2 .date{
+        width: 45%;
+    }
+
+    .cargoValue{
+        width: 100%;
+        margin-top: 2rem;
+    }
+   
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+       .row2 .date{
+        margin-bottom: 5%;
+    }
+   
+}
+@media only screen and (max-width: 535px){
+	/*Small smartphones [325px -> 425px]*/
+	.row1 .input.from{
+        margin-top: 5%;
+    }
 }

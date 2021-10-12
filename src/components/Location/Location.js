@@ -13,31 +13,31 @@ const Location = () => {
 						<button className="import">Import</button>
 						<button className="export">Export</button>
 					</span>
-					<div class="ui left icon input">
-						<input type="text" placeholder="Search users..." />
+					<div class="ui left icon input from">
+						<input type="text" placeholder="From City or part" />
 						<i aria-hidden="true" class="map marker alternate icon"></i>
 					</div>
-					<div class="ui left icon input">
-						<input type="text" placeholder="Search users..." />
+					<div class="ui left icon input to">
+						<input type="text" placeholder="To City or part" />
 						<i aria-hidden="true" class="map marker alternate icon"></i>
 					</div>
 				</div>
 				<div className="row2">
-					<div class="ui left icon input">
-						<input type="text" placeholder="Search users..." />
-						<i aria-hidden="true" class="map marker alternate icon"></i>
+					<div class="ui left icon input date">
+						<input type="text" placeholder="Ready Date" />
+						<i aria-hidden="true" class="calendar icon"></i>
 					</div>
 					<div
 						role="listbox"
 						aria-expanded="false"
-						class="ui selection dropdown"
+						class="ui selection dropdown incoterms"
 						tabindex="0">
 						<div
 							aria-atomic="true"
 							aria-live="polite"
 							role="alert"
 							class="divider default text">
-							Select your country
+							Inconterms
 						</div>
 						<i aria-hidden="true" class="dropdown icon"></i>
 						<div class="menu transition">
@@ -57,8 +57,8 @@ const Location = () => {
 							</div>
 						</div>
 					</div>
-					<div class="ui input">
-						<input type="text" placeholder="Search..." />
+					<div class="ui input cargoValue">
+						<input type="text" placeholder="Total Cargo Value" />
 					</div>
 				</div>
 			</Section>
