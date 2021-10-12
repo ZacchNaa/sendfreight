@@ -5,3 +5,22 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+
+@media only screen and (max-width: 789px){
+    /*Tablets [601px -> 1200px]*/
+   .itemSection{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media only screen and (max-width: 600px){
+    /*Big smartphones [426px -> 600px]*/
+    .itemSection{
+     display: grid !important;
+     grid-template-columns: 1fr !important;
+    }
+  
+   
+}

@@ -1,13 +1,14 @@
 .addItem{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 1.5rem 0;
 }
 
 .addItem i{
     font-size: 2rem;
     color: #ebeff3;
     transform: rotateZ(180deg);
+    padding-left: 1rem;
 }
 
 .addItem .desc h5{
@@ -18,6 +19,28 @@
 .addItem .desc p{
     color: #aeb0b3;
     font-size: 0.8rem;
-    width: max-content;
+    width: 100%;
 }
 
+
+@media only screen and (max-width: 789px){
+    /*Tablets [601px -> 1200px]*/
+  .addItem .desc p{
+    font-size: 0.7rem;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 600px){
+    /*Big smartphones [426px -> 600px]*/
+  .addItem .desc p{
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+.addItem{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+   
+}
