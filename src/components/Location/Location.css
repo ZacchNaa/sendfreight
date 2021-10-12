@@ -29,6 +29,28 @@
     flex-wrap: wrap;
 }
 
+	.row1 .input.from{
+        width: 35%;
+    }
+	.row1 .input.to{
+        width: 35%;
+    }
+
+.row1 input, .row2 input, .incoterms{
+    background-color: #ebeff3 !important;
+}
+
+  .row2 .date{
+        width: 30%;
+    }
+
+  .row2 .incoterms{
+        width: 30%;
+    }
+
+    .cargoValue{
+        width: 30%;
+    }
 
 @media only screen and (max-width: 780px){
     /*Tablets [601px -> 1200px]*/
