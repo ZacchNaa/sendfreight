@@ -21,7 +21,6 @@
 @media only screen and (max-width: 1200px){
 	/*Tablets [601px -> 1200px]*/
 	.btnGroup{
-		/* margin-left: 20%; */
 		margin-bottom: 1rem;
 	}
    
@@ -31,6 +30,7 @@
 	width: 100%;
 	padding-left: 1.5rem;
 	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
